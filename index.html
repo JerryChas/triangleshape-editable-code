@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>::before & ::after</h1>
+
+    <div class="container">
+
+        <div class="stylebox">
+
+            <input type="checkbox" name="edit" class="edit" id="edit">
+            <label for="edit" class="edit-lable">Edit</label>
+
+            <div class="style_div">
+                <style contenteditable class="style">
+                    .item::before {
+                        border-top: 100px solid red; 
+                        border-right: 100px solid purple;
+                        border-bottom: 100px solid green;
+                        border-left: 100px solid blue;
+
+                        /*  animation: none;  */
+                    }
+                </style>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="item">
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
